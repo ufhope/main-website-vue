@@ -2,7 +2,7 @@
   <div id="root_hope">
     <NuxtRouteAnnouncer />
     <div id="main">
-      <Header />
+      <Navbar />
       <NuxtPage />
     </div>
   </div>

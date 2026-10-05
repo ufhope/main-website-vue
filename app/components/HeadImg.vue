@@ -44,9 +44,11 @@ defineProps<{
 h1 {
   font-size: 3rem;
   margin: 0;
+  color: #ffffff;
 }
 
 p {
   font-size: 1.2rem;
+  color: #ffffff;
 }
 </style>

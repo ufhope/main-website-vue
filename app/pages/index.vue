@@ -11,6 +11,17 @@
 <style>
   body {
     background-color: #ffffff;
+    color: #000000;
+  }
+  p {
     text-align: center;
+    font-family: 'Ubuntu Mono', sans-serif;
+    color: #000000;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 900;
+    color: #000000;
   }
 </style>

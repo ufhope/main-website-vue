@@ -18,10 +18,10 @@
     <!-- Desktop navigation -->
     <nav class="desktop-nav" aria-label="Primary navigation">
       <a href="/about/">About Us</a>
-      <a href="/resources/">Resources</a>
+      <a href="/blog/">Our Blog</a>
       <a href="/people/">Our People</a>
       <a href="/platform/">Platform</a>
-      <a href="/contact/">Contact Us</a>
+      <a href="https://archive.ufhope.org">Archive</a>
       <a href="/calendar/">Calendar</a>
     </nav>
 
@@ -33,10 +33,10 @@
       aria-label="Primary navigation"
     >
       <a href="/about/" @click="closeMobileNav">About Us</a>
-      <a href="/resources/" @click="closeMobileNav">Resources</a>
+      <a href="/blog/" @click="closeMobileNav">Blog</a>
       <a href="/people/" @click="closeMobileNav">Our People</a>
       <a href="/platform/" @click="closeMobileNav">Platform</a>
-      <a href="/contact/" @click="closeMobileNav">Contact Us</a>
+      <a href="https://archive.ufhope.org" @click="closeMobileNav">Archive</a>
       <a href="/calendar/" @click="closeMobileNav">Calendar</a>
     </nav>
   </header>
@@ -57,6 +57,9 @@ function closeMobileNav() {
 </script>
 
 <style scoped>
+# {
+  color: #ffffff;
+}
 .navbar {
   position: sticky;
   top: 0;
@@ -69,18 +72,22 @@ function closeMobileNav() {
   padding: 1vh 1vw;
 
   background-color: #4f009f;
-  color: #fff6f6;
+  color: #ffffff;
 
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   align-items: center;
   gap: 1vw;
 
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+
   border-radius: 20px 20px 0 0;
 }
 
 .navbar a {
-  color: #fff6f6;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -117,7 +124,7 @@ function closeMobileNav() {
   border-radius: 8px;
 
   background: transparent;
-  color: #fff6f6;
+  color: #ffffff;
 
   cursor: pointer;
 }
